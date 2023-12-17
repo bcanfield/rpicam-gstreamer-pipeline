@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.2...1.0.3) (2023-12-17)
+
+
+### Bug Fixes
+
+* Docker Action ([bdc7a44](https://github.com/bcanfield/rpicam-gstreamer-pipeline/commit/bdc7a44ca798721ce091be05e20f097bc81de413))
+
 ## [1.0.2](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.1...1.0.2) (2023-12-17)
 
 
