@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.1...1.0.2) (2023-12-17)
+
+
+### Bug Fixes
+
+* Specify arm64 platform ([ede38d6](https://github.com/bcanfield/rpicam-gstreamer-pipeline/commit/ede38d6395160806fbe8b941df7c90677fb95276))
+
 ## [1.0.1](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.0...1.0.1) (2023-12-17)
 
 
