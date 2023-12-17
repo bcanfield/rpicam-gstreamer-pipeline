@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.3...1.0.4) (2023-12-17)
+
+
+### Bug Fixes
+
+* Builddx setup action ([936516a](https://github.com/bcanfield/rpicam-gstreamer-pipeline/commit/936516a6fca9a7058391d27ef6e24ff5ce7b380c))
+
 ## [1.0.3](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.2...1.0.3) (2023-12-17)
 
 
