@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.4...1.0.5) (2023-12-18)
+
+
+### Bug Fixes
+
+* Add more rpi distros to buildx ([8158309](https://github.com/bcanfield/rpicam-gstreamer-pipeline/commit/8158309ad8ea29555adc7eb0b8b33efe5aa37ddb))
+
 ## [1.0.4](https://github.com/bcanfield/rpicam-gstreamer-pipeline/compare/1.0.3...1.0.4) (2023-12-17)
 
 
