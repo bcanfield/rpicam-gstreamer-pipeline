@@ -47,6 +47,6 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/arm64
+          platforms: linux/arm64,linux/arm/v6,linux/armhf
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
