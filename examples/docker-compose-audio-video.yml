@@ -12,4 +12,4 @@ services:
     devices:
       - "/dev/vchiq:/dev/vchiq"
       - "/dev/snd:/dev/snd"
-    command: gst-launch-1.0 -v rtspclientsink name=sink protocols=tcp location=${RTSP_URL} rpicamsrc preview=0 exposure-mode=night fullscreen=0 bitrate=800 annotation-mode=time+date annotation-text-size=20 ! videoconvert ! videoscale ! video/x-raw,width=640,height=480,framerate=15/1 ! x264enc speed-preset=veryfast tune=zerolatency bitrate=800 ! sink. alsasrc device=hw:1,0 ! voaacenc bitrate=800 ! aacparse ! sink.
+    command: gst-launch-1.0 -v rtspclientsink name=sink protocols=tcp location=${RTSP_URL} rpicamsrc preview=0 exposure-mode=night fullscreen=0 bitrate=32000 annotation-mode=time+date annotation-text-size=20 ! videoconvert ! videoscale ! video/x-raw,width=640,height=480,framerate=12/1,format=I420 ! x264enc speed-preset=ultrafast tune=zerolatency bitrate=32000 key-int-max=24 ! sink. alsasrc device=hw:1,0 ! voaacenc bitrate=32000 ! aacparse ! sink.
